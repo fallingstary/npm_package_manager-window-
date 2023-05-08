@@ -31,3 +31,4 @@
     },
 8. npm stop : npm으로 실행이 되어진 상태를 종료
 9. npm restart : npm을 다시 시작
+10. npm search : 패키지 검색
