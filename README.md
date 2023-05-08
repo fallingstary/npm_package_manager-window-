@@ -14,15 +14,15 @@
 3. node -v로 node 설치 여부(버전 확인)
 4. vscode에서 터미널 활성화한 후 다음 명령어로 해당 폴더에 package.json파일 생성 : $ npm init -y
 5. 다음 명령어로 npm.lock 파일과 모듈 설치 : $ npm install
--> 만약에 package.json 파일을 가지고 있더라면, package.json안에 있던 라이브러리들이 자동으로 설치
+-> 만약에 package.json 파일을 가지고 있더라면, package.json안에 있던 패키지들이 자동으로 설치
 6. 끝
 
 * npm 명령어로 pakage.json 파일 사용법
-1. npm install 라이브러리명 : 해당 라이브러리 설치
-2. npm ci 라이브러리명 : 해당 라이브러리를 현 버전(package-lock)으로 설치
-3. npm update : 설치된 라이브러리들을 업데이트
-4. npm rm : 설치된 라이브러리들을 삭제
-5. npm dedupe : npm 중복된 라이브러리들 정리
+1. npm install 패키지명 : 해당 패키지 설치
+2. npm ci 패키지명 : 해당 패키지를 현 버전(package-lock)으로 설치
+3. npm update : 설치된 패키지들을 업데이트
+4. npm rm 패키지명 : 설치된 패키지들을 삭제
+5. npm dedupe : npm 중복된 패키지들 정리
 6. npm root : node_modules 설치 경로
 7. npm test or start : package.json의 script 부분에 아래와 같이 입력하여 간단하게 실행가능. 하지만 입력하지 않았다면 node server.js가 실행
     "scripts": {
